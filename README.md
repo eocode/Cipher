@@ -119,4 +119,4 @@ Your file
 Send me a pull request or contact me as eocode in social media
 
 # License
-GPL 3
+GNU General Public License v3.0
