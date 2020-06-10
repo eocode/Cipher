@@ -1,0 +1,4 @@
+cipher/*
+files/*
+*__pycache__/*
+env/*
