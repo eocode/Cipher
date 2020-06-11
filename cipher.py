@@ -1,7 +1,7 @@
 import sys
 import os
 import click
-from core import commands as clients_commands
+from core import commands
 
 
 def clear(): return os.system('cls')
@@ -18,4 +18,4 @@ print("""
          | |
          |_|
     """)
-clients_commands.cli()
+commands.cli()
