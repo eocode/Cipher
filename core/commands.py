@@ -15,16 +15,16 @@ def generate_key():
     """Generate a secure key for your files"""
     cipher = CipherTools()
     click.echo(
-        'Your secure cipher key was generated successful')
+        'Your secure cipher key was generated successfully')
     print(
         tabulate([["Generated_key"], [cipher.generate_key()]], headers="firstrow"))
     click.echo(
-        'Save your key on a secure place')
+        'Save your key in a secure place')
 
 
 @cli.command()
 def basic_init():
-    """Generate a basic structure folders for your ciphers"""
+    """Generate a basic folders structure for your ciphers files"""
     click.echo(
         'Create a "files" folder for the files to be encrypted and a "cipher" folder for your processed files')
     file = CipherTools()
@@ -47,16 +47,16 @@ def encrypt(filename, key):
     file = CipherTools(filename)
     result = file.encrypt(key)
     if result:
-        click.echo("Your file: "+filename+" has been encrypt")
+        click.echo("Your file: "+filename+" has been encrypted")
     else:
-        click.echo("Your key is not valid or the file don´t exists")
+        click.echo("Your key is not valid or the file does not exists")
 
 
 @cli.command()
 @click.option('-f', '--folder',
               type=str,
               prompt=True,
-              help='Folder of your encrypt file')
+              help='Folder of your encrypted file')
 @click.option('-k', '--key',
               type=str,
               prompt=True,
@@ -66,9 +66,9 @@ def decrypt(folder, key):
     file = CipherTools(folder)
     result = file.decrypt(key)
     if result:
-        click.echo("Your file in: "+folder+" has been decrypt")
+        click.echo("Your file in: "+folder+" has been decrypted")
     else:
-        click.echo("Your key is not valid or the file encrypt don't exists")
+        click.echo("Your key is not valid or the file encrypted does not exists")
 
 
 all = cli

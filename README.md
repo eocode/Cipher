@@ -1,6 +1,6 @@
 # Cypher (CLI)<!-- omit in toc -->
 
-> Cipher your files make simple
+> Cipher your files made simple
 
 <div align="center">
   <img src="img/cipher.png">
@@ -18,7 +18,7 @@
 
 ## Features
 * Command line interface
-* Generate secure keys on base64
+* Generate secure keys on [base64](https://en.wikipedia.org/wiki/Base64)
 * Cipher files
 * Decipher files
 
@@ -47,9 +47,9 @@
 
 ## Quick guide
 
-Only type a simple commands for start
+Only type a simple command for start.
 
-> For this guide I use a simple file .txt with a "hello world" message
+> For this guide I use a simple .txt file with a "hello world" message.
 
 ### Create a basic structure for cipher and decipher
 
@@ -59,7 +59,7 @@ Only type a simple commands for start
   <img src="img/2.png">
 </div>
 
-When the command is run, two new folders have been created, the original files must be placed in the "files" folder
+When the command is run, two new folders will created, the original files must be placed in the "files" folder.
 
 <div align="center">
   <img src="img/3.png">
@@ -67,15 +67,15 @@ When the command is run, two new folders have been created, the original files m
 
 ### Generate a secure key
 
-You need a secure key make on base64 for cipher and decipher your files, type next command:
+You need a secure key make on base 64 for cipher and decipher your files, type next command:
 
 <div align="center">
   <img src="img/4.png">
 </div>
 
-Save the key on your password manager or on other secure place
+We highly recommend you to store your key in your favorite password manager or in any other secure place.
 
-Move your file to "files" folder
+Move your file to "files" folder.
 
 <div align="center">
   <img src="img/5.png">
@@ -85,14 +85,14 @@ Move your file to "files" folder
 ### Cipher a file
 
 Type this:
-Type your filename and your key generated
+Type the filename and your generated key.
 `python cipher.py encrypt`
 
 <div align="center">
   <img src="img/6.png">
 </div>
 
-The file generated is
+The generated file is:
 
 <div align="center">
   <img src="img/7.png">
@@ -100,23 +100,23 @@ The file generated is
 
 ### Decipher a file
 
-Make sure you have a folder with an encrypt.txt file
+Make sure you have a folder with an `encrypt.txt` file.
 
-Type this
+Type this:
 ``python cipher.py decrypt``
 
 <div align="center">
   <img src="img/9.png">
 </div>
 
-Your file
+Your file:
 
 <div align="center">
   <img src="img/10.png">
 </div>
 
 # How to contribute
-Send me a pull request or contact me as eocode in social media
+Send me a pull request or contact me as eocode in social media.
 
 # License
 GNU General Public License v3.0
