@@ -18,7 +18,7 @@
 
 ## Features
 * Command line interface
-* Generate secure keys on [base64](!https://en.wikipedia.org/wiki/Base64)
+* Generate secure keys on [base64](https://en.wikipedia.org/wiki/Base64)
 * Cipher files
 * Decipher files
 
