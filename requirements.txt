@@ -1,6 +1,6 @@
 cffi==1.14.0
 click==7.1.2
-cryptography==2.9.2
+cryptography==3.2
 pycparser==2.20
 pycryptodome==3.9.7
 six==1.15.0
